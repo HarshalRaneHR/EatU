@@ -1,53 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EatU</title>
-</head>
-<body>
-    
-    <header>
-        <div class="container">
-            <img class="dish" src="images/dish.png" alt="" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>EatU</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="./media.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img class="dish" src="images/dish.png" alt="" />
 
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="images/logo.png" alt="" srcset="" draggable="false" />
-                </div>
-                <div id="menu-icon"><i class="fas fa-bars fa-2x"></i></div>
-                <ul class="lists" id="nav-menu">
-                    <li><a href="" class="nav-link">home</a></li>
-                    <li><a href="" class="nav-link">shop</a></li>
-                    <li><a href="" class="nav-link">pages</a></li>
-                    <li><a href="" class="nav-link">testimonials</a></li>
-                    <li><a href="" class="nav-link">portfolio</a></li>
-                    <li>
-                        <a href="" class="nav-link"
-                            >about <i class="fas fa-angle-right"></i
-                        ></a>
-                    </li>
-                </ul>
-            </nav>
+				<nav class="navbar">
+					<div class="logo">
+						<img src="images/logo.png" alt="" srcset="" draggable="false" />
+					</div>
+					<div id="menu-icon"><i class="fas fa-bars fa-2x"></i></div>
+					<ul class="lists" id="nav-menu">
+						<li><a href="" class="nav-link">home</a></li>
+						<li><a href="" class="nav-link">shop</a></li>
+						<li><a href="" class="nav-link">pages</a></li>
+						<li><a href="" class="nav-link">testimonials</a></li>
+						<li><a href="" class="nav-link">portfolio</a></li>
+						<li>
+							<a href="" class="nav-link"
+								>about <i class="fas fa-angle-right"></i
+							></a>
+						</li>
+					</ul>
+				</nav>
 
-            <div class="heading">
-                <h1> The Nizam's <br />resturant</h1>
-            </div>
+				<div class="heading">
+					<h1> The DMCE's <br />resturant</h1>
+				</div>
 
-            <div class="booking">
-                <div class="content">
-                    <h5 class="chair">book a table directly</h5>
-                    <p>(033) 216 654</p>
-                    <h5 class="note">
-                        opening hours <span>mon-fri:</span> 09:00 - 21:00 /
-                        <span>weekend:</span>09:00 - 22:00
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </header>
+				<div class="booking">
+					<div class="content">
+						<h5 class="chair">book a table directly</h5>
+						<p>(033) 216 654</p>
+						<h5 class="note">
+							opening hours <span>mon-fri:</span> 09:00 - 21:00 /
+							<span>weekend:</span>09:00 - 22:00
+						</h5>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="shop">
+			<div class="container">
+				<div class="all-content">
+					<article class="content">
+						<h3>
+							cooking is the art of <br />
+							adjustment
+						</h3>
+						<p>
+							Cooking is the process of producing safe and edible food by preparing and combining ingredients, and (in most cases) applying heat. Cooking is a means of processing food, without which many foods would be unfit for human consumption.
+							<br>
+							A restaurant cook is someone whose responsibility it is to prepare and cook various appetizers, entrees and desserts; to ensure the ingredients used are fresh; to make sure the work area is clean; and to have any necessary equipment readily available.
+						</p>
+						<h5>XYZ XYZ <span>- master chief at resturant</span></h5>
+						<button class="btn">reservation</button>
+					</article>
+					<div class="video-content">
+						<div class="btn-container">
+							<button class="btn">
+								play <i class="fas fa-caret-right"></i>
+							</button>
+						</div>
+						<div class="img">
+							<a href="https://youtu.be/A2W3c2KZR8o" target="_blank"><img
+								src="images/video-bg.jpg"
+								alt=""
+								class="img-responsive"
+								draggable="false"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<section id="menu">
+			<div class="container">
+				<div class="all-content">
+					<h2>delicious flavour of autumn</h2>
 
-</body>
+					<div class="slider">
+						<div class="right" id="next">
+							<i class="fas fa-chevron-right"></i>
+						</div>
+						<div class="left" id="prev">
+							<i class="fas fa-chevron-left"></i>
+						</div>
+						<div class="moved-cards">
+							<div class="cards-container">
+								<div class="card">
+									<img src="images/card-2.jpg" alt="" class="img-responsive" />
+									<div class="price"><span>100/-</span></div>
+									<div class="content">
+										<h4>super bbq grill no smoke</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<img src="images/card-3.jpg" alt="" class="img-responsive" />
+									<div class="price"><span>250/-</span></div>
+									<div class="content">
+										<h4>Fajita Dish</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<img src="images/card-1.jpg" alt="" class="img-responsive" />
+									<div class="price"><span>200/-</span></div>
+									<div class="content">
+										<h4>Bistecca Tuscan Steakhouse</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<img src="images/fish.png" alt="" class="img-responsive" />
+									<div class="price"><span>190/-</span></div>
+									<div class="content">
+										<h4>Fish Fry</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<img src="images/card-3.jpg" alt="" class="img-responsive" />
+									<div class="price"><span>320/-</span></div>
+									<div class="content">
+										<h4>super bbq grill no smoke</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<img src="images/card-1.jpg" alt="" class="img-responsive" />
+									<div class="price"><span>280/-</span></div>
+									<div class="content">
+										<h4>super bbq grill no smoke</h4>
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Nisi, quis!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="link">
+						<a href="#">view full menu</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="testimonials">
+			<div class="content">
+				<div class="icon"><i class="fas fa-quote-left"></i></div>
+				<h3>i love cooking for myself and love cooking for my family</h3>
+				<p class="name">Mridul Paul</p>
+			</div>
+		</section>
+
+		<section id="chef">
+			<div class="container">
+				<div class="all-content">
+					<div class="image">
+						<img src="images/chief.png" alt="" class="img-responsive" />
+					</div>
+					<article class="content">
+						<h2 class="heading">the food's masters say about us</h2>
+
+						<div class="chef-main-slider">
+							<div class="inner-chef-slider">
+								<div class="moved-chef-slider">
+									<div class="slider-item">
+										<q>The Hospitality Is Also Awasome Like It's Food!</q>
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+											Obcaecati suscipit totam dignissimos quod aliquam, cumque
+											voluptatibus aspernatur eveniet enim accusamus
+											exercitationem a, illo doloremque facilis consequuntur
+											ipsum ex cum inventore, animi deserunt quam saepe! Ab quos
+											earum illum quidem laborum.
+										</p>
+										<h5 class="name">
+											Praveen Rawat - <span>Head Chef , Airoli, Navi Mumbai</span>
+										</h5>
+									</div>
+
+									<div class="slider-item">
+										<q>The Quality Of The Food Is Awasome</q>
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+											Obcaecati suscipit totam dignissimos quod aliquam, cumque
+											voluptatibus aspernatur eveniet enim accusamus
+											exercitationem a, illo doloremque facilis consequuntur
+											ipsum ex cum inventore, animi deserunt quam saepe! Ab quos
+											earum illum quidem laborum.
+										</p>
+										<h5 class="name">
+											Rajib Biswas - <span>Owner Of Taj Bengal</span>
+										</h5>
+									</div>
+									<div class="slider-item">
+										<q>The Ambience Is Out Of The World With It's Food!</q>
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+											Obcaecati suscipit totam dignissimos quod aliquam, cumque
+											voluptatibus aspernatur eveniet enim accusamus
+											exercitationem a, illo doloremque facilis consequuntur
+											ipsum ex cum inventore, animi deserunt quam saepe! Ab quos
+											earum illum quidem laborum.
+										</p>
+										<h5 class="name">
+											Rohit Khandella - <span>Head Chef , JW Marriot</span>
+										</h5>
+									</div>
+									<div class="slider-item">
+										<q>Best Experience</q>
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+											Obcaecati suscipit totam dignissimos quod aliquam, cumque
+											voluptatibus aspernatur eveniet enim accusamus
+											exercitationem a, illo doloremque facilis consequuntur
+											ipsum ex cum inventore, animi deserunt quam saepe! Ab quos
+											earum illum quidem laborum.
+										</p>
+										<h5 class="name">
+											ahmed ali - <span>winner master chef 2022</span>
+										</h5>
+									</div>
+								</div>
+							</div>
+							<div class="next"><i class="fas fa-arrow-right"></i></div>
+							<div class="prev"><i class="fas fa-arrow-left"></i></div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="events">
+			<div class="container">
+				<div class="cards">
+					<div class="card">
+						<div class="imgBox">
+							<img src="images/img-1.jpg" alt="" class="" />
+						</div>
+						<div class="content">
+							<h3>beef souteed onions - let's enjoy!</h3>
+							<p>HUDCO Bhavan , Biswa Bangla Sarani , Newtown , Navi Mumbai</p>
+							<p>10:00am - 14:00pm</p>
+							<p>Mondey Sept 25th, 2022</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="imgBox">
+							<img src="images/img-2.jpg" alt="" class="" />
+						</div>
+						<div class="content">
+							<h3>become a super chef is easy with us</h3>
+							<p>150/A AJC Bose Road , Navi Mumbai</p>
+							<p>10:00am - 14:00pm</p>
+							<p>Mondey Sept 25th, 2022</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="imgBox">
+							<img src="images/img-3.jpg" alt="" class="" />
+						</div>
+						<div class="content">
+							<h3>Art photography in foody</h3>
+							<p>123 MG Road , Navi Mumbai</p>
+							<p>10:00am - 14:00pm</p>
+							<p>Monday Sept 25th, 2022</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>we always here to help you</h2>
+			<div class="container">
+				<article>
+					<div class="all-content">
+						<div class="content-1">
+							<h3>Navi Mumbai, <span>India</span></h3>
+							<p>
+								Building, #24, 1st Floor, Near Airoli Station, Airoli, Navi Mumbai 400708
+							</p>
+							<p class="email">email: <span>info@thedmcesresturant.com</span></p>
+						
+						</div>
+						<div class="content-2">
+							<h5>call directly</h5>
+							<h4>+(91) 21665 43242</h4>
+							<h5>Lunch Service</h5>
+							<p>Friday, Saturday, Sunday booking from 12:00pm - 01:03pm</p>
+							<h5>Dinner Service</h5>
+							<p>Daily: Booking from 06:00pm - 09:30pm</p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4508.544058618981!2d72.99624158367162!3d19.158415748907487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd3c6cf8c72148aa5!2sAiroli%20local%20train%20station!5e0!3m2!1sen!2sin!4v1664209446417!5m2!1sen!2sin" 
+			width="100%"
+				height="450"
+				frameborder="0"
+				style="border: 0"
+				allowfullscreen=""
+				aria-hidden="false"
+				tabindex="0">
+			</iframe>
+		</section>
+
+		<footer id="footer">
+			<div class="container">
+				<div class="all-content">
+					<div class="logo">
+						<img src="images/logo.png" alt="" />
+					</div>
+					<ul>
+						<li><a href="#"style="text-decoration:none; color: white;">reservation</a> </li>
+						<li><a href="#"style="text-decoration:none; color:white; ">functions</a></li>
+						<li><a href="#"style="text-decoration:none; color:white; ">contacts</a></li>
+						<li><a href="#"style="text-decoration:none; color:white; ">review & media</a></li>
+					</ul>
+					<div class="icons">
+						<span><i class="fab fa-twitter"></i></span>
+						<span><i class="fab fa-facebook"></i></span>
+						<span><i class="fab fa-google-plus-g"></i></span>
+						<span><i class="fab fa-instagram"></i></span>
+					</div>
+					<p><i class="far fa-copyright"></i> The DMCE's resturant</p>
+					<p>Designed by Students of DMCE. all rights is reserved</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
 </html>
