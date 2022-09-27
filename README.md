@@ -1,15 +1,26 @@
+
 # EatU
+
 This project is based on our recent open source project lab and this project is based on restaurant website.
 
-The DMCE's
-Fully Responsive web Site .
 
-Tech Stack used -
 
-*HTML5
+## The DMCE's 
 
-*CSS3
 
-*Bootstrap4
+Fully Responsive Website .
 
-*JavaScript
+
+
+
+## Tech Stack used:-
+
+- HTML5
+- CSS3
+- Botstrap4
+- Javascript
+
+
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
