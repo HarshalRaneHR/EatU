@@ -5,7 +5,7 @@ This project is based on our recent open source project lab and this project is 
 
 
 
-## The DMCE's 
+## The Dawat's 
 
 
 Fully Responsive Website .
